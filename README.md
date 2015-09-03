@@ -1,4 +1,4 @@
-![Image](screenshots/sankey-sample-1.png)
+![Image](screenshots/sample.png)
 
 (Chart generated from the [sample file](sample.csv).)
 
