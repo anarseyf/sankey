@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Sankey Diagrams</title>
+    
+    <script src="js/d3.min.js"></script>
+    <script src="js/sankey-cycle.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body class="c-body">
+    <div class="c-header">Sankey Diagrams</div>
+    <br>
+    <div>
+        Samples:
+        <span id="energy" class="c-link">Energy</span>,
+        <span id="cycle" class="c-link">Energy (cycle)</span>,
+        <span id="sample" class="c-link">Sample</span> |
+        <input type="file" id="fileupload">
+    </div>
+    <div><strong>Firefox</strong> is recommended, see the <a href="http://github.com/anarseyf/sankey">Readme on GitHub</a> for details</div>
+    
+    <div id="legend" class="c-legend"></div>
+    <div id="chart"></div>
+    <div id="data" class="c-data"></div>
+</body>
+
+</html>

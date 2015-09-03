@@ -1,0 +1,67 @@
+#chart {
+}
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+/*  **  **  **  **  **  **  **  */
+
+html, body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+.c-header {
+    font-size: 1.2em;
+}
+
+.c-body {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.c-link {
+    color: blue;
+    cursor: pointer;
+}
+
+.c-legend {
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.c-data {
+    display: inline-block;
+    font-family: Consolas, Menlo, Monaco, monospace;
+    text-align: left;
+    white-space: pre;
+    background-color: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 10px auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    max-height: 300px;
+    width: 95%;
+    overflow-y: scroll;
+    font-size: 0.85em;
+}
